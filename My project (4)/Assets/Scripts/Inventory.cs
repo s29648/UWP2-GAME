@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
   [SerializeField] private int coins;
 
-  private readonly HashSet<string> storedItems = [];
+  private readonly HashSet<string> storedItems = new HashSet<string>();
 
   public int Coins => coins;
 
